@@ -1,0 +1,15 @@
+Package: nvidia-driver
+Version: 7:384.98-3-biglinux8
+Pre-Depends: nvidia-installer-cleanup, nvidia-legacy-check (>= 343)
+Depends: nvidia-driver-bin (>= 375.26-1+deepin), xserver-xorg-video-nvidia (>= 375.26-1+deepin), nvidia-vdpau-driver (>= 375.26-1+deepin), nvidia-alternative (>= 375.26-1+deepin), nvidia-kernel-dkms, nvidia-support, nvidia-modprobe, nvidia-kernel-common, libegl-nvidia0, libegl1-glvnd-nvidia, libegl1-glvnd-nvidia:i386, libgl1-glvnd-nvidia-glx, libgl1-glvnd-nvidia-glx:i386, libglvnd0-nvidia | libgldispatch0-nvidia, libgles1-glvnd-nvidia, libgles2-glvnd-nvidia, libgl1-nvidia-glvnd-glx, libgl1-nvidia-glvnd-glx:i386, libopengl0-glvnd-nvidia
+Recommends: nvidia-settings (>= 375), nvidia-persistenced
+Suggests: nvidia-kernel-dkms (>= 375.26) | nvidia-kernel-source (>= 375.26)
+Architecture: all
+Maintainer: Bruno Goncalves <bigbruno@gmail.com>
+Section: admin
+Priority: optional
+Installed-Size:16
+Description: Meta package to fix dependencies
+
+
+
